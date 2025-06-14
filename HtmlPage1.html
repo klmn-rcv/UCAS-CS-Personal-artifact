@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <title>个人作品</title>
+    <style>
+        
+        #canvas {
+            background-color: darkkhaki;
+            display: inline;
+        }
+
+        #canvas2 {
+            left: 0px;
+            top: 0px;
+            background-color: lightblue;
+            display: inline;
+        }
+
+        #button {
+            position: absolute;
+            left: 940px;
+            top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <span style="text-align: center">
+        <canvas width="200" height="815"></canvas>
+        <canvas id="canvas" width="700" height="815"></canvas>
+        <canvas id="canvas2" width="350" height="815"></canvas>
+    </span>
+    <div id="button">
+        <input type="button" value="熟悉操作" onclick="button0()" />
+        <input type="button" value="符卡1" onclick="button1()">
+        <input type="button" value="符卡2" onclick="button2()">
+        <input type="button" value="符卡3" onclick="button3()">
+        <input type="button" value="符卡4" onclick="button4()">
+        <br /><br />
+        <input type="button" value="无敌" onclick="charInvince()">
+        <input type="button" value="取消无敌" onclick="cancelInvince()">
+        <input type="button" value="暂停" onclick="pause()">
+        <input type="button" value="继续" onclick="conti()">
+        <input type="button" value="停止" onclick="kill()">
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
